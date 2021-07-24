@@ -10,7 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Operators {
+class Resolve {
 
     /*
      * Complete the 'solve' function below.
@@ -31,7 +31,7 @@ class Operators {
 
 }
 
-public class Solution {
+public class Operators {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -41,7 +41,7 @@ public class Solution {
 
         int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
 
-        Result.solve(meal_cost, tip_percent, tax_percent);
+        Resolve.solve(meal_cost, tip_percent, tax_percent);
 
         bufferedReader.close();
     }
